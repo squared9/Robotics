@@ -18,7 +18,7 @@ Search and Sample Return
 The Jupyter notebook contains methods for robotic perception. In each step this perception method splits the area into 
 drivable part (pink), part with obstacles (blue) and samples (green):
 
-[![Video](misc/rover_notebook.png)](https://raw.githubusercontent.com/squared9/Robotics/master/Rover-Search_and_Sample_Return/output/test_mapping.mp4)
+[![Video](misc/rover_notebook.PNG)](https://raw.githubusercontent.com/squared9/Robotics/master/Rover-Search_and_Sample_Return/output/test_mapping.mp4)
 
 **Notebook implementation:**
 
