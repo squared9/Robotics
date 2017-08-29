@@ -2,6 +2,8 @@
 
 This project performs 3D segmentation on data obtained from a RGB-D camera.
 
+*To run this project, copy "sensor_stick" directory to "src" directory of your catkin workspace (typically "catkin_ws"), then run catkin_make, source devel/setup.bash, then execute "roslaunch sensor_stick robot_spawn.launch".*
+
 The original project dataset looks like this:
 ![image](images/3D_Point_Cloud.PNG)
 
