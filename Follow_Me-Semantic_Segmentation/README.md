@@ -147,5 +147,19 @@ a mobile version with acceptable performance.
 Alternative architectures such as [Bayesian SegNet](http://mi.eng.cam.ac.uk/projects/segnet/) or 
 [CRF](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo) might be considered instead.
 
+## Further reading
+[A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
+
+[Fully Convolutional Networks for Semantic Segmentation by Long, Shelhamer, Darrell](https://people.eecs.berkeley.edu/%7Ejonlong/long_shelhamer_fcn.pdf)
+and corresponding [talk](http://techtalks.tv/talks/fully-convolutional-networks-for-semantic-segmentation/61606/) by its authors
+
+[Spatio-temporal Video Autoencoder with Differentiable Memory by Patraucean, Handa, Cipolla](https://arxiv.org/pdf/1511.06309.pdf)
+
+[Attention mechanism](http://distill.pub/2016/augmented-rnns)
+
+[Attention models](https://indico.io/blog/sequence-modeling-neural-networks-part2-attention-models/)
+
+[Keras with autoencoder](https://blog.keras.io/building-autoencoders-in-keras.html)
+
 ## Video
-[![Follow Me](images/fme_video.png)]((https://raw.githubusercontent.com/squared9/Robotics/master/Follow_Me-Semantic_Segmentation/images/follow_me.mp4))
+[![Follow Me](images/fme_video.png)](https://raw.githubusercontent.com/squared9/Robotics/master/Follow_Me-Semantic_Segmentation/images/follow_me.mp4)
