@@ -7,6 +7,8 @@ Robotics related projects
 
 [Willow Garage's PR2 3D Perception-based Pick and Place](Robotic_PR2_3D_Perception_Pick_And_Place)
 
+[Follow Me! Semantic Segmentation with FCN](Follow_Me-Semantic_Segmentation)
+
 [3D Segmentation of RGB-D point cloud using RANSAC](3D_Segmentation)
 
 [3D Object Recognition from point cloud using linear SVM on histogram features](3D_Object_Recognition)
