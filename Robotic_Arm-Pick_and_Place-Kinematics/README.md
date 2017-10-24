@@ -1,10 +1,11 @@
 # KUKA KR210 Robotic Arm - Pick & Place
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
+![KUKA KR210](images/kuka_kr210.jpg)
 ![KUKA animation](images/kuka_animation.gif)
-![KUKA KR201](images/kuka_kr201.jpeg)
-![KUKA diagram](images/kuka_diagram_1.jpg)
-![KUKA diagram](images/kuka_diagram_2.jpg)
+
+![KUKA diagram](images/kuka_diagram_1.gif)
+![KUKA diagram](images/kuka_diagram_2.gif)
 
 The goal of this project is to calculate forward and inverse kinematics and plan robot movement for picking up objects from a shelf
 and moving them into a dropbox.
@@ -14,7 +15,7 @@ This project requires ROS Kinetic with RViz, MovIt! and Gazebo 7.7+.
 
 
 ## Kinematics
-KUKA KR201 actuations can be seen on the following diagram:
+KUKA KR210 actuations can be seen on the following diagram:
 
 ![KUKA actuations](images/kuka_actuations.png)
 
@@ -25,7 +26,7 @@ KUKA KR201 actuations can be seen on the following diagram:
 Denavit-Hartenberg is a useful method of computing forward and inverse kinematics using just 4 parameters, utilizing 
 information computed in previous joints and taking advantage of robotic joint composition.
 
-The following Denavit-Hartenberg (DH) table was produced for KR201:
+The following Denavit-Hartenberg (DH) table was produced for KR210:
 
 | i | &alpha;_i-1 | a_i-1 | d_i | &theta;_i 
 | :-------- | :-------- | :-------- | :-------- | :-------- 
@@ -73,7 +74,7 @@ The position of the end effector (EE) can be computed when we chain all matrices
 
 As we now posses all transformation matrices, we can derive inverse kinematic formulas for all &theta; parameters.
 
-Here the position of **wrist center** (*WC*) is important. Wrist center in KR201 coincides with the joint 5 position, 
+Here the position of **wrist center** (*WC*) is important. Wrist center in KR210 coincides with the joint 5 position, 
 as joint 5 is the center of spherical wrist formed from joints 4-6. The position of WC can therefore be obtained from
 joints 1-3. We can use T0_EE to compute end effector position and derive WC coordinates:
 
