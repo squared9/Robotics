@@ -5,6 +5,8 @@ Robotics related projects
 
 [NASA Rover Challenge - Search and Sample Return](Rover-Search_and_Sample_Return)
 
+[KUKA KR201 Robotic Arm - Pick and Place - Kinematics](Robotic_Arm-Pick_and_Place-Kinematics)
+
 [Willow Garage's PR2 3D Perception-based Pick and Place](Robotic_PR2_3D_Perception_Pick_And_Place)
 
 [Follow Me! Semantic Segmentation with FCN](Follow_Me-Semantic_Segmentation)
