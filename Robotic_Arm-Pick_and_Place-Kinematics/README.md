@@ -91,6 +91,8 @@ The final formulas for *&theta;_1-3* are therefore as follows:
 
 ![Theta_1-3](images/theta_1-3.png)
 
+Please note ***arctan*** here denotes ***arctan2/atan2*** function often implemented by programming libraries.
+ 
 To solve &theta;_4-6 we need to use rotational part of T0_EE only. Here we use the following equation:
 
 ![Rotation](images/rotation_submatrices.png)
@@ -110,6 +112,13 @@ motion is started, failing to grip object successfully. To avoid this issue, tra
 at line 327 by adding:
 
         ros::Duration(2.0).sleep();
+        
+## Further reading
+[Mathematics for Inverse Kinematics](http://www.cs.cmu.edu/~15464-s13/lectures/lecture6/IK.pdf) by Ming Yao at CMU 
+for 15-464: Technical Animation class
+ 
+[Kinematic Singularities and Jacobians](http://www.cs.columbia.edu/~allen/F15/NOTES/jacobians.pdf) by Peter K. Allen 
+at Columbia University for CS 4733: Computational Aspects of Robotics
 
 ## Video
 [![KUKA](images/kuka_video_snapshot.JPG)](https://raw.githubusercontent.com/squared9/Robotics/master/Robotic_Arm-Pick_and_Place-Kinematics/video/kuka.mp4)
